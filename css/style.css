@@ -171,38 +171,101 @@ li{
 .p-colorW{
 color: white;
 margin-top: 1%;
+text-align: center;
 }
 .footer__icone{
     display: flex;
     justify-content: space-around;
-    bottom: 200px;
-    margin-top: -3%;
-    margin-left: 40%;
     }
 .cartefruit{
-    margin-top: -20px;
-    padding-left: -15px;  
+    text-align: center;
+   
     width: 50%;
     margin-left: 22%;
 }
 .p-form{
     color: white;
     text-align: center;
-    margin-top:-20px ;
-    padding-left: 20px;
 }
-.checkbox{
-    margin-left: -22px;
-    margin-top: 16px;
-}
-.p-Footer{
-    color: white;
-    font-size: 12px;
-    margin-top: -25px;
-    margin-left: 35%;
-}
+    .p-Footer {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+
 .card__SavoirPlus{
     font-size:12px;
     margin-left: auto;
     color: green;
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input__search2 {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    padding: 10px; /* Ajoutez le rembourrage selon vos besoins */
+    margin-bottom: 10px; /* Ajoutez de l'espace sous le champ de texte */
+    margin-left: 35rem;
+}
+.input__search {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    padding: 10px; /* Ajoutez le rembourrage selon vos besoins */
+    margin-bottom: 10px; /* Ajoutez de l'espace sous le champ de texte */
+}
+.checkbox2{
+    margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+    .m-footer__d-flex {
+        margin-left: 5%;
+    }
+    .cartefruit {
+        width: 80%; 
+        margin-left: 10%;
+    }
+    .input__search{
+        width: 200px;
+    }
+    .inputForm {
+        width: 80%;
+    }
+    .input__search2{
+        margin-left: 200px;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    
+
+    header {
+        padding: 8px; 
+    }
+
+    .navbar {
+        flex-direction: column; 
+    }
+
+    .navbar__img {
+        height: 80px; 
+    }
+
+    .input__search {
+        width: 100%; 
+        margin-left: 0;
+    }
+
+    .m-footer__tete {
+        height: auto; 
+    }
+
+    .footer__form {
+        height: auto; /
+    }
+
+    .input__search2 {
+        margin-left: 0;
+    }
 }
