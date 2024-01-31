@@ -7,7 +7,11 @@ body{
 .logo {
     width: 78px;
 }
-
+h1{
+    text-align: center;
+    color: green;
+    font-family: 'Comfortaa', cursive;
+}
 .m-header__tete{
     background-color: rgb(59, 41, 29);
    min-height: 100px;
@@ -208,7 +212,7 @@ text-align: center;
     width: 300px; /* Ajustez la largeur selon vos besoins */
     padding: 10px; /* Ajoutez le rembourrage selon vos besoins */
     margin-bottom: 10px; /* Ajoutez de l'espace sous le champ de texte */
-    margin-left: 35rem;
+    margin-left: 50rem;
 }
 .input__search {
     width: 300px; /* Ajustez la largeur selon vos besoins */
@@ -218,6 +222,7 @@ text-align: center;
 .checkbox2{
     margin-left: 15px;
 }
+
 @media screen and (max-width: 768px) {
     .m-footer__d-flex {
         margin-left: 5%;
